@@ -62,7 +62,7 @@ device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 # ----------------------------
 
 model = BrainTumorCNN().to(device)
-model.load_state_dict(torch.load("brain_tumor_model.pth", map_location=device))
+model.load_state_dict(torch.load("model/brain_tumor_model.pth", map_location=device))
 model.eval()
 
 # ----------------------------
