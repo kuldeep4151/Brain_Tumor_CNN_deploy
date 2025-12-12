@@ -1,0 +1,15 @@
+__pycache__/
+*.zip
+*.tar
+*.mp4
+*.pt
+*.pth
+*.DS_Store
+/.cache/
+/kagglehub/
+/datasets/
+/brain_tumor_dataset_split/
+/venv/
+/env/
+/model_checkpoints/
+/logs/
